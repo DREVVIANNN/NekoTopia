@@ -12,8 +12,8 @@
   /* Colors */
   --white-color: #fff;
   --dark-color: #252525;
-  --primary-color: #55238d;
-  --secondary-color: #ff8605;
+  --primary-color: #1f4596;
+  --secondary-color: #15c0d3;
   --light-pink-color: #ffffff;
   --medium-gray-color: #ccc;
 
@@ -629,7 +629,7 @@ header .navbar {
 
   .navbar .nav-menu {
     display: block;
-    background: #fff;
+    background: #1f4596;
     position: fixed;
     top: 0;
     left: -300px;
@@ -650,7 +650,7 @@ header .navbar {
     display: block;
     margin-top: 17px;
     padding: 10px 22px;
-    color: var(--dark-color);
+    color: var(--white-color);
     font-size: var(--font-size-l);
   }
 
