@@ -85,6 +85,11 @@
   margin-left: 5px;
 }
 
+.h5 .blue-tick {
+  color: #1DA1F2;
+  margin-left: 5px;
+}
+
 .service-item-title .blue-tick {
   color: #1DA1F2;
   margin-left: 5px;
@@ -273,6 +278,10 @@ article.active {
   box-shadow: var(--shadow-2);
   cursor: pointer;
   z-index: 1;
+}
+
+.skills__img {
+  border-radius: 0.5rem;
 }
 
 .content-card::before {
@@ -739,7 +748,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: var(--transition-1);
 }
 
