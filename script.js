@@ -152,7 +152,7 @@ for (let i = 0; i < navigationLinks.length; i++) {
   });
   window.onloadTurnstileCallback = function () {
   turnstile.render("#myWidget", {
-    sitekey: "0x4AAAAAAA6A0-nw9Orc7ULt",
+    sitekey: "0x4AAAAAAA6A9BNtchAU6GPE",
     callback: function (token) {
       console.log(`Challenge Success ${token}`);
       setTimeout(function() {
