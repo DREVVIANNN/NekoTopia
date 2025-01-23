@@ -700,14 +700,6 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-.container {
-  display: none;
-  align-items: center;
-  justify-content: center;
-  background-color: transparent;
-  flex-direction: row;
-}
-
 .modal-img-wrapper>img {
   display: none;
 }
