@@ -830,6 +830,7 @@ main {
 
 .skills-list {
   padding: 20px;
+  pointer-events: none;
 }
 
 
