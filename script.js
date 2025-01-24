@@ -107,7 +107,43 @@ for (let i = 0; i < filterBtn.length; i++) {
 
 }
 
+var copybtn = document.getElementById("copy-btn4");
+        var link = document.getElementById("link4");
 
+        copybtn.onclick = function () {
+            navigator.clipboard.writeText(link4.innerHTML);
+            setTimeout(function (){
+            }, 2000)
+        }
+
+
+var copybtn = document.getElementById("copy-btn3");
+        var link = document.getElementById("link3");
+
+        copybtn.onclick = function () {
+            navigator.clipboard.writeText(link3.innerHTML);
+            setTimeout(function (){
+            }, 2000)
+        }
+
+
+var copybtn = document.getElementById("copy-btn2");
+        var link = document.getElementById("link2");
+
+        copybtn.onclick = function () {
+            navigator.clipboard.writeText(link2.innerHTML);
+            setTimeout(function (){
+            }, 2000)
+        }
+
+var copybtn = document.getElementById("copy-btn");
+        var link = document.getElementById("link");
+
+        copybtn.onclick = function () {
+            navigator.clipboard.writeText(link.innerHTML);
+            setTimeout(function (){
+            }, 2000)
+        }
 
 // contact form variables
 const form = document.querySelector("[data-form]");

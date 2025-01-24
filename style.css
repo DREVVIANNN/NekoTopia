@@ -65,6 +65,23 @@
   --transition-2: 0.5s ease-in-out;
 
 }
+  
+  *{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  input,
+  textarea,
+  button,
+  select,
+  a{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  a:focus,
+  a:visited,
+  a:active{
+    outline: none;
+  }
 
 
 *,
@@ -88,6 +105,206 @@
 .title .blue-tick {
   color: #1DA1F2;
   margin-left: 5px;
+}
+
+.button2{
+  padding: 5px 10px;
+  margin: 0.5em 0;
+  background: #123e8e;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.button2:hover{
+  background: green;
+  transition: 0.5s;
+  color: white;
+}
+
+.navbar-link2{
+  width: 100%;
+  height: 40px;
+  margin: 0.5em 0;
+  background: white;
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.navbar-link2:hover{
+  background: #174491;
+  color: white;
+  transition: 0.2s;
+}
+
+.copyfield{
+    display: flex;
+    align-items: center;
+}
+
+#link{
+
+    width: 250px;
+
+    padding: 5px 5px;
+    border: 1px solid #212121;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    overflow-x: scroll;
+}
+#link::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn{
+    color: white;
+    width: 62px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.copyfield2{
+    display: flex;
+    align-items: center;
+}
+
+#link2{
+
+    width: 250px;
+
+    padding: 5px 5px;
+    border: 1px solid #212121;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    overflow-x: scroll;
+}
+#link2::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn2{
+    color: white;
+    width: 62px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.copyfield3{
+    display: flex;
+    align-items: center;
+}
+
+#link3{
+
+    width: 250px;
+
+    padding: 5px 5px;
+    border: 1px solid #212121;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    overflow-x: scroll;
+}
+#link3::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn3{
+    color: white;
+    width: 62px;
+    height: 105px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.copyfield4{
+    display: flex;
+    align-items: center;
+}
+
+#link4{
+
+    width: 250px;
+
+    padding: 5px 5px;
+    border: 1px solid #212121;
+    color: black;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 10px;
+    overflow-x: scroll;
+}
+#link4::-webkit-scrollbar{
+    display: none;
+}
+
+#copy-btn4{
+    color: white;
+    width: 62px;
+    height: 105px;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#copy-btn:hover{
+  background: green;
+  transition: 0.5s;
+  color: white;
+}
+
+#copy-btn2:hover{
+  background: green;
+  transition: 0.5s;
+  color: white;
+}
+
+#copy-btn3:hover{
+  background: green;
+  transition: 0.5s;
+  color: white;
+}
+
+#copy-btn4:hover{
+  background: green;
+  transition: 0.5s;
+  color: white;
 }
 
 .h5 .blue-tick {
@@ -755,7 +972,7 @@ main {
   width: 100%;
   filter: grayscale(0);
   transition: var(--transition-1);
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .clients-item img:hover {
@@ -1804,7 +2021,7 @@ textarea.form-input::-webkit-resizer {
   .timeline-text {
     max-width: 700px;
   }
-
+  
 }
 
 
