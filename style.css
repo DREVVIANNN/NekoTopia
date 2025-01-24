@@ -80,6 +80,11 @@
   margin-left: 5px;
 }
 
+.modal-content .blue-tick {
+  color: #1DA1F2;
+  margin-left: 5px;
+}
+
 .title .blue-tick {
   color: #1DA1F2;
   margin-left: 5px;
@@ -164,7 +169,7 @@ article {
 
 .icon-box {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: #fff;
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -246,7 +251,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  background: #fff;
   border-radius: 3px;
 }
 
@@ -261,7 +266,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: #fff;
   border-radius: 5px;
 }
 
@@ -271,7 +276,7 @@ article.active {
 
 .content-card {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: #fff;
   padding: 15px;
   padding-top: 45px;
   border-radius: 14px;
@@ -347,8 +352,8 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
-  background: var(--border-gradient-onyx);
+  color: #fff;
+  background: #fff;
   padding: 10px;
   box-shadow: var(--shadow-2);
   transition: var(--transition-1);
@@ -367,7 +372,7 @@ main {
 
 .info_more-btn:hover,
 .info_more-btn:focus {
-  background: var(--bg-gradient-yellow-1);
+  background: #fff;
 }
 
 .info_more-btn:hover::before,
@@ -511,7 +516,7 @@ main {
 
 .service-item {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: #fff;
   padding: 20px;
   border-radius: 14px;
   box-shadow: var(--shadow-2);
@@ -748,8 +753,9 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(1);
+  filter: grayscale(0);
   transition: var(--transition-1);
+  border-radius: 15px;
 }
 
 .clients-item img:hover {
