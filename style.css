@@ -175,7 +175,7 @@
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #2871c1;
     border-radius: 5px;
 }
 
@@ -209,12 +209,11 @@
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #2871c1;
     border-radius: 5px;
 }
 
 .copyfield3{
-    display: flex;
     align-items: center;
 }
 
@@ -237,18 +236,18 @@
 #copy-btn3{
     color: white;
     width: 62px;
+    height: 30px;
     padding: 5px 10px;
     font-size: 10px;
     cursor: pointer;
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #2871c1;
     border-radius: 5px;
 }
 
 .copyfield4{
-    display: flex;
     align-items: center;
 }
 
@@ -271,13 +270,14 @@
 #copy-btn4{
     color: white;
     width: 62px;
+    height: 30px;
     padding: 5px 10px;
     font-size: 10px;
     cursor: pointer;
     text-align: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: #2871c1;
     border-radius: 5px;
 }
 
