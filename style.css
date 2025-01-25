@@ -510,6 +510,16 @@ article.active {
 
 .skills__img {
   border-radius: 0.5rem;
+  width: 100%;
+  height: 100%;
+}
+
+.audio {
+  padding: 5px 10px;
+  background: #fff;
+  color: black;
+  z-index: 1;
+  border-radius: 5px;
 }
 
 .content-card::before {
