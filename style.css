@@ -141,8 +141,8 @@
 }
 
 .navbar-link2:hover{
-  background: gray;
-  color: white;
+  background: inherit;
+  color: inherit;
   transition: 0.2s;
 }
 
@@ -548,7 +548,7 @@ main {
 }
 
 .sidebar.active {
-  max-height: 485px;
+  max-height: 550px;
 }
 
 .sidebar-info {
@@ -991,7 +991,7 @@ main {
 
 .clients-item img {
   width: 100%;
-  filter: grayscale(0);
+  filter: grayscale(1);
   transition: var(--transition-1);
   border-radius: 5px;
 }
