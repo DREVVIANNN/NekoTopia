@@ -135,12 +135,13 @@
   font-weight: bold;
   border-radius: 5px;
   border: none;
+  box-shadow: 0px 0px 10px #fff;
   outline: none;
   cursor: pointer;
 }
 
 .navbar-link2:hover{
-  background: #174491;
+  background: gray;
   color: white;
   transition: 0.2s;
 }
@@ -519,6 +520,8 @@ article.active {
   background: #fff;
   color: black;
   z-index: 1;
+  box-shadow: 0px 0px 20px #fff,
+  0px 0px 10px #fff inset;
   border-radius: 5px;
 }
 
