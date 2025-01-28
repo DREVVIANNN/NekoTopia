@@ -146,6 +146,13 @@
   transition: 0.2s;
 }
 
+.gabut{
+  color: white;
+  border-bottom: 1px solid #fff;
+  cursor: pointer;
+  width: fit-content;
+}
+
 .copyfield{
     display: flex;
     align-items: center;
