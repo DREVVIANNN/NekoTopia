@@ -1021,6 +1021,7 @@ main {
 
 .timeline {
   margin-bottom: 30px;
+  user-select: none;
 }
 
 .timeline .title-wrapper {
